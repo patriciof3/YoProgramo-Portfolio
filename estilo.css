@@ -111,8 +111,9 @@ li {
     overflow: hidden;
 }
 
-img{
+#profile {
     border-radius: 50%;
+    height: 175px;
     width: 175px;
 }
 
@@ -120,8 +121,9 @@ img{
 /* ----------------------SECCIÓN PROYECTOS---------------------- */
 
 #proyects {
-    height: 300px;
+    height: 700px;
     width: 100%;
+    font-family: var(--font-par);
 }
 
 .section_title {
@@ -130,8 +132,47 @@ img{
     font-family: var(--font-par);
     left: 20%;
     margin-top: 50px;
-    position: absolute;
+    margin-bottom: 10px;
+    position: relative;
+    display: block;
 }
 
+.section_content {
+    height: 600px;
+}
 
+.proyect_esp {
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.proyect_img {
+    height: 100%;
+    width: 50%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#html_img {
+    height: 150px;
+    padding: 25px;
+    ;
+}
+
+#proyect_1{
+    width:50%;
+    height: 100%;
+    float: right
+}
+
+.proyect_rect {
+    width: 110%;
+    background-color: var(--blue-background);
+    height: 80px;
+    position:absolute;
+    z-index: -1;
+}
 
