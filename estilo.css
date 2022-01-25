@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu+Mono&display=swap');
+
+
+
+:root {
+    /* Colores */
+    --blue-background:#abdaf55e;
+    --grey-par:#6D6D6D;
+    --grey-title:#525050;
+    --font-par: Ubuntu Mono;
+    --font-nav: Ubuntu Mono;
+}
+
+.body {
+    width: 1vw;
+}
+ 
+/* BARRA DE NAVEGACIÓN */
+
+.nav {
+    display: grid;
+    background: transparent;
+}
+
+
+ul {
+    font-family: var(--font-nav);
+    font-size: 1.25em;
+    color: var(--grey-title);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 1rem;
+    float: right;
+}
+
+/*HOME*/
+
+.home_container {
+    height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.big_box {
+    height: 300px;
+    display: block;
+    width: 100%;
+    display: flex;
+    place-items: center;
+}
+
+#home_box {
+   background-color: var(--blue-background);
+   width: 70%;
+   height: 300px;
+   right: 0px;
+   position: absolute;
+   z-index: -1;
+   }
+
+#home_par {
+    font-family: var(--font-par);
+    color: var(--grey-par);
+    opacity: 100%;
+    position: absolute;
+    width: 40vw;
+    right: 100px;
+}
+
+#identification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    height: auto;
+    width: auto;
+    font-family: Ubuntu Mono;
+    font-size: 3.25rem;
+    display: inline-block;
+    padding: 20px;
+}
+
+#name1 {
+    color: var(--grey-title);
+    opacity: 100%;
+    display: flex;
+}
+
+#name2 {
+    color: var(--grey-title);
+}
+
+#picture {
+    border-color: var(--blue-background);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    display: inline-block;
+    margin: 30px;
+    overflow: hidden;
+}
+
+img{
+    border-radius: 50%;
+    width: 175px;
+}
+
+
+/* ----------------------SECCIÓN PROYECTOS---------------------- */
+
+#proyects {
+    height: 300px;
+    width: 100%;
+}
+
+.section_title {
+    color: var(--grey-title);
+    font-size: 3.25rem;
+    font-family: var(--font-par);
+    left: 20%;
+    margin-top: 50px;
+    position: absolute;
+}
+
+
+
