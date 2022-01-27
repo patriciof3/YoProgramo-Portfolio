@@ -10,10 +10,11 @@
     --grey-title:#525050;
     --font-par: Ubuntu Mono;
     --font-nav: Ubuntu Mono;
+    font-family: Ubuntu Mono;
 }
 
 .body {
-    width: 1vw;
+    width: 1120px;
 }
  
 /* BARRA DE NAVEGACIÓN */
@@ -128,11 +129,11 @@ li {
 
 .section_title {
     color: var(--grey-title);
-    font-size: 3.25rem;
+    font-size: 4rem;
     font-family: var(--font-par);
     left: 20%;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     position: relative;
     display: block;
 }
@@ -141,38 +142,106 @@ li {
     height: 600px;
 }
 
+/* ----------------------PROYECTOS ESPECÍFICOS---------------------- */
+
 .proyect_esp {
     height: 200px;
-    border-style: solid;
-    border-color: black;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .proyect_img {
     height: 100%;
     width: 50%;
-    float: left;
     justify-content: center;
     align-items: center;
-    display: flex;
-}
-
-#html_img {
-    height: 150px;
-    padding: 25px;
-    ;
-}
-
-#proyect_1{
-    width:50%;
-    height: 100%;
-    float: right
+    display: inline-flex;
 }
 
 .proyect_rect {
-    width: 110%;
+    width: 85%;
     background-color: var(--blue-background);
     height: 80px;
-    position:absolute;
+    position:relative;
     z-index: -1;
+    float: right;
 }
+
+.proyect_title {
+    position:absolute;
+    font-size: 2.75rem;
+    color: var(--grey-title);
+    padding: 15px;
+}
+
+.proyect_desc {
+    position: absolute;
+    color: var(--grey-par);
+    margin-top: 100px;
+}
+
+/* ----------------------PROYECTO 1---------------------- */
+
+#proyect_1{
+    width:50%;
+    height: 200px;
+    position: absolute;
+    float: right;
+}
+
+#proyect_img_1{
+    display: inline-flex;
+}
+
+#html_img {
+    height: 200px;
+    padding: 25px;
+}
+
+#proyect_2{
+    float: right;
+    height: 200px;
+    width: 50%;
+    position:absolute;
+    display: inline-flex;
+}
+
+#proyect_img_2{
+    float: right;
+}
+
+#proyect_title_2{
+    margin-left: 250px;
+}
+
+
+#proyect_3 {
+    width:50%;
+    height: 200px;
+    position: absolute;
+    float: right;
+}
+
+#proyect_img_3 {
+    display: inline-flex;
+}
+
+
+
+#sat_img {
+    height: 200px;
+    padding: 25px;
+}
+
+#data_img {
+    height: 200px;
+    padding: 25px;
+    float: right;
+}
+
+
+
+
+
+
 
